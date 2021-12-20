@@ -29,6 +29,7 @@ handleItemClicked = (suggestion) => {
   render() {
     return(
       <div className="CitySearch">
+      <h4>Choose your nearest city</h4>
         <input
         type="text"
         className="city"

@@ -37,6 +37,7 @@ componentWillUnmount(){
   render() {
     return (
       <div className="App">
+      <h1>Meet App</h1>
       <EventList events={this.state.events} />
       <CitySearch locations={this.state.locations} updateEvents={this.updateEvents} />
       <NumberOfEvents />

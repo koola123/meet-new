@@ -15,6 +15,7 @@ class Event extends Component {
 
     return (
       <div className="Event">
+        <h2>{events.summary}</h2>
         <ul>
 
           {this.state.show === true && (
@@ -22,7 +23,7 @@ class Event extends Component {
           )}
           {this.state.show === false && (
             <button className="showMore" onClick={() => this.handleButton()}>
-              Show details
+              show details
             </button>
           )}
           {this.state.show === true && (
